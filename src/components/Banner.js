@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import profileImageImage from "../assets/img/Vijay _png.png"; //image
-import Resume from "../assets/Vijay Saradhi Mallavalli.pdf"; //resume
+import Resume from "../assets/Vijay_Resume_React.pdf"
 import { BsDownload } from "react-icons/bs";
 
 export const Banner = () => {

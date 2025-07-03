@@ -39,8 +39,11 @@ export const Experience = () => {
                         <br /><br />
                         {/* <p></p> */}
                         <h4>BRIGHTCOM GROUP</h4>
-                        <h6 style={{color:"rgb(255 1 79)"}}>Software Engineer Trainee</h6>
-                        <p>Nov-2022 to Present Date</p>
+                        <h6 style={{color:"rgb(255 1 79)"}}>Full-Stack Developer(MERN)</h6>
+                        <p>Nov-2022 to Aug-2024</p>
+                          <h4>RFCHH Software PVT.LTD</h4>
+                          <h6 style={{color:"rgb(255 1 79)"}}>Frontend Developer</h6>
+                          <p>Aug-2024 to Present Date</p>
                     </div>
                 </div>
             </div>

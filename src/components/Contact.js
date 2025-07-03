@@ -24,10 +24,11 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_gvsj81s', 'template_o35rt3g', e.target, 'EhuAcs_wzpdUIGpK7')
+    emailjs.sendForm('service_wevmumf', 'template_n38he6f', e.target, 'XN3Fx3n4jDcvQNJeu')
       .then((result) => {
         setStatus({ success: true, message: 'Message sent successfully' });
         setFormDetails(formInitialDetails);
+        console.log('Email sent successfully:', result);
       }, (error) => {
         setStatus({ success: false, message: 'Something went wrong, please try again later.' });
         console.error('Email send error:', error);

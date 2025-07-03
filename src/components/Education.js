@@ -51,7 +51,7 @@ export const Education = () => {
                                 </div>
                                 <div className="item">
                                     <CircularProgressBar percentage={88} />
-                                    <h5>NIRMALA <br/>High School</h5>
+                                    <h5>NIRMALA High School</h5>
                                     <p>SSC</p>
                                 </div>
                             </Carousel>

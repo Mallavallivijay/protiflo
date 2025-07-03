@@ -7,25 +7,27 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
   return (
-    <footer className="footer" style={{ height: '100px' }}> {/* Adjust the height as needed */}
+    <footer className="footer" style={{ height: '100px' }}>
       <Container>
-        <Row className="align-items-center">
-          <Col size={12} sm={6}>
+        <Row className="align-items-center justify-content-between" style={{ display: 'flex', flexWrap: 'nowrap' }}>
+          <Col xs="auto" className="d-flex align-items-center">
             <div className="logo-container">
-              <img src={logo1} alt="Logo" /> {/* Replace 'Vijay' with your logo */}
+              <img src={logo1} alt="Logo" style={{ height: '90px', width: '60px', objectFit: 'cover', borderRadius: '50%' }} />
             </div>
           </Col>
-          
-          
-          <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-            <a href="https://www.linkedin.com/in/vijay-saradhi-358b0a220" target="_blank" >
+          <Col className="text-center" style={{ fontWeight: 600, fontSize: '1.2rem', color: '#e4c55f', letterSpacing: '1px' }}>
+            @vijaymallavalli
+          </Col>
+          <Col xs="auto" className="d-flex align-items-center justify-content-end">
+            <div className="social-icon" style={{ display: 'flex', gap: '12px' }}>
+              <a href="https://www.linkedin.com/in/vijay-saradhi-358b0a220" target="_blank" rel="noopener noreferrer">
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
-              <a href="https://www.instagram.com/vijay_mallavalli/" target="_blank"><img src={navIcon3} alt="Instagram" /></a>
-              <a href="https://twitter.com/?lang=en-in" target="_blank"><img src={navIcon2} alt="Twitter" /></a>
+              <a href="https://www.instagram.com/vijay_mallavalli/" target="_blank" rel="noopener noreferrer">
+                <img src={navIcon3} alt="Instagram" />
+              </a>
+              {/* <a href="https://twitter.com/?lang=en-in" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Twitter" /></a> */}
             </div>
-       
           </Col>
         </Row>
       </Container>
